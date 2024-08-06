@@ -27,4 +27,4 @@ deploy_gcp:
     - chmod 400 $SSH_KEY
   
   script:
-      - ssh -o StrictHostKeyChecking=no -i $SSH_KEY gcp@$SSH_SERVER "sudo rm -Rf ./kubernetes-project2-dio/ && sudo git clone https://gitlab.com/nivaldobeirao/kubernetes-project2-dio.git && cd kubernetes-project2-dio && sudo chmod +x ./script.sh && ./script.sh"
+      - ssh -o StrictHostKeyChecking=no -i $SSH_KEY gcp@$SSH_SERVER "sudo rm -Rf ./kubernetes-project2-dio/ && sudo git clone https://github.com/njtsb1/Deploy_Pipeline_GitLab_Kubernetes && cd kubernetes-project2-dio && sudo chmod +x ./script.sh && ./script.sh"
