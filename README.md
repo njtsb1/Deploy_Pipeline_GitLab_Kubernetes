@@ -8,4 +8,3 @@ Learning how to create an application deployment pipeline with image production 
 [LICENSE](/LICENSE)
 
 See [original repository](https://gitlab.com/denilsonbonatti/kubernetes-projeto2-dio).
-# Deploy_Pipeline_GitLab_Kubernetes
